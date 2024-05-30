@@ -23,3 +23,6 @@ Extreme Pixel Intensity Check (Included at the end of Registration pipeline)
 This part of the QC is used to check for any pixels that might be extreme and not applicable for downstream analysis.
 For example, from the registration step, there can be edge artifacts that have intensity values over 65k, as well as oversaturated areas that have pixel intensity values of zero, and are surrounded by pixels over 65k (in 16-bit images). 
 Sometimes, the images can be corrupted, which can result in large black boxes that appear in the images with 0 intensity pixels outlined by pixels over 65k intensity.
+
+
+***Cell segmentation comes after this, which is a necessary step to extract features from each of the cells from each image. Typically, the soma and nuclei are segmented for each image using Cellpose 2. (Refer to this documentation for an in depth description of the segmentation pipeline)
