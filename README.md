@@ -15,7 +15,7 @@ It is important to visualize the X and Y shift so that one can filter out any eg
 Merging is concatenating all of the cycles together into one image 
 For example, the 5 Cycles of images will be merged together. If each cycle had 5 channels, the resulting merged image would be 25 channels.
 Cropping is for removing empty space that might result from X and Y shifts from registration as well as rotation. Using trigonometry, the empty space is calculated with the transformation matrix numbers, and the dimensions are applied in the code to crop out the appropriate amount of space. 
-Refer to [this documentation] (https://docs.google.com/document/d/1J2-apRoWXOqydC1ti-lHzeWqLtRXN-iLLmPUX5jge3c/edit) for a description of how to get started with the pipeline
+Refer to [this documentation](https://docs.google.com/document/d/1J2-apRoWXOqydC1ti-lHzeWqLtRXN-iLLmPUX5jge3c/edit) for a description of how to get started with the pipeline
 
 
 ### Extreme Pixel Intensity Check (Included at the end of Registration pipeline) 
@@ -25,4 +25,4 @@ For example, from the registration step, there can be edge artifacts that have i
 Sometimes, the images can be corrupted, which can result in large black boxes that appear in the images with 0 intensity pixels outlined by pixels over 65k intensity.
 
 
-*** Cell segmentation comes after this, which is a necessary step to extract features from each of the cells from each image. Typically, the soma and nuclei are segmented for each image using Cellpose 2. (Refer to [this documentation] (https://docs.google.com/document/d/1Hv0edCc2tVscYzYVikYOnAQ2kpr2FL43yKQp3d3ghVw/edit) for an in depth description of the segmentation pipeline)
+*** Cell segmentation comes after this, which is a necessary step to extract features from each of the cells from each image. Typically, the soma and nuclei are segmented for each image using Cellpose 2. (Refer to [this documentation](https://docs.google.com/document/d/1Hv0edCc2tVscYzYVikYOnAQ2kpr2FL43yKQp3d3ghVw/edit) for an in depth description of the segmentation pipeline)
