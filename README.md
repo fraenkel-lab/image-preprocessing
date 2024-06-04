@@ -12,8 +12,7 @@ Refer to [this documentation](https://docs.google.com/document/d/1O-mWoCaFsKmQY7
 Registration is a pre-processing step for cyclic imaging data. 
 For example, if there is a dataset with 5 Cycles of imaging (Cycle 0, Cycle 1, Cycle 2, Cycle 3, Cycle 4), Cycle 0 will likely be the reference, where the rest of the cycles will be aligned onto the Cycle 0 images. 
 It is important to visualize the X and Y shift so that one can filter out any egregiously shifted images or erroneously registered images. This step is an aid to do so holistically. 
-Merging is concatenating all of the cycles together into one image 
-For example, the 5 Cycles of images will be merged together. If each cycle had 5 channels, the resulting merged image would be 25 channels.
+Merging is concatenating all of the cycles together into one image. 
 Cropping is for removing empty space that might result from X and Y shifts from registration as well as rotation. Using trigonometry, the empty space is calculated with the transformation matrix numbers, and the dimensions are applied in the code to crop out the appropriate amount of space. 
 Refer to [this documentation](https://docs.google.com/document/d/1J2-apRoWXOqydC1ti-lHzeWqLtRXN-iLLmPUX5jge3c/edit) for a description of how to get started with the pipeline
 
