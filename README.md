@@ -24,4 +24,5 @@ For example, from the registration step, there can be edge artifacts that have i
 Sometimes, the images can be corrupted, which can result in large black boxes that appear in the images with 0 intensity pixels outlined by pixels over 65k intensity.
 
 
-*** Cell segmentation comes after this, which is a necessary step to extract features from each of the cells from each image. Typically, the soma and nuclei are segmented for each image using Cellpose 2. (Refer to [this documentation](https://docs.google.com/document/d/1Hv0edCc2tVscYzYVikYOnAQ2kpr2FL43yKQp3d3ghVw/edit) for an in depth description of the segmentation pipeline)
+### Cell Segmentation (Using Cellpose) 
+Segmentation comes after Registration, Merge and Crop (if registration was not necessary, this step comes right after ims to tif conversion) which is a necessary step to make single cell labels to extract features from each of the cells from each image. Typically, the soma and nuclei are segmented for each image using Cellpose 2. (Refer to [this documentation](https://docs.google.com/document/d/1Hv0edCc2tVscYzYVikYOnAQ2kpr2FL43yKQp3d3ghVw/edit) for an in depth description of the segmentation pipeline)
