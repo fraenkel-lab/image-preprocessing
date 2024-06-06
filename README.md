@@ -2,12 +2,12 @@
 
 ### Conda Environment Setup
 
-In order to continue with this image processing pipeline, you need to have a suitable environment with the necessary packages. You can find yml.file to create the environment (additional information for creating the environment can be found: [here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html))
+In order to continue with this image processing pipeline, you need to have a suitable environment with the necessary packages. You can find image_processing.yml file above to create the environment (additional information for creating the environment can be found: [here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)).
 
 ### Image Format Conversion
 
 The TIF image format is usually the preferred format for preprocessing. Therefore if the raw images are in a different format, one would need to convert it to TIF.
-For example, if the images are IMS (imaris file format) they would need to be converted from IMS to TIF
+For example, if the images are IMS (imaris file format) they would need to be converted from IMS to TIF.
 Refer to [this documentation](https://docs.google.com/document/d/1O-mWoCaFsKmQY7QfEU1NhL3cyS8SfPCvKUoiIK5zcQQ/edit) for an in depth description of the file conversion pipeline (from IMS to TIF)
 
 
@@ -18,7 +18,7 @@ For example, if there is a dataset with 5 Cycles of imaging (Cycle 0, Cycle 1, C
 It is important to visualize the X and Y shift so that one can filter out any egregiously shifted images or erroneously registered images. This step is an aid to do so holistically. 
 Merging is concatenating all of the cycles together into one image. 
 Cropping is for removing empty space that might result from X and Y shifts from registration as well as rotation. Using trigonometry, the empty space is calculated with the transformation matrix numbers, and the dimensions are applied in the code to crop out the appropriate amount of space. 
-Refer to [this documentation](https://docs.google.com/document/d/1J2-apRoWXOqydC1ti-lHzeWqLtRXN-iLLmPUX5jge3c/edit) for a description of how to get started with the pipeline
+Refer to [this documentation](https://docs.google.com/document/d/1J2-apRoWXOqydC1ti-lHzeWqLtRXN-iLLmPUX5jge3c/edit) for a description of how to get started with the pipeline.
 
 
 ### Extreme Pixel Intensity Check (Included at the end of Registration pipeline) 
