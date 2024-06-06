@@ -2,7 +2,7 @@
 
 ### Conda Environment Setup
 
-In order to continue with this image processing pipeline, you need to have a suitable environment with the necessary packages. You can find image_processing.yml file above to create the environment (additional information for creating the environment can be found: [here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)).
+In order to continue with this image processing pipeline, you need to have a suitable environment with the necessary packages. You can find image_processing.yml file above to create the environment. (Additional information for creating the environment can be found: [here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html))
 
 ### Image Format Conversion
 
