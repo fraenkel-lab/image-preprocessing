@@ -8,7 +8,7 @@ In order to continue with this image processing pipeline, you need to have a sui
 
 The TIF image format is usually the preferred format for preprocessing. Therefore if the raw images are in a different format, one would need to convert it to TIF.
 For example, if the images are IMS (imaris file format) they would need to be converted from IMS to TIF.
-Refer to [this documentation](https://docs.google.com/document/d/1O-mWoCaFsKmQY7QfEU1NhL3cyS8SfPCvKUoiIK5zcQQ/edit) for an in depth description of the file conversion pipeline (from IMS to TIF)
+Refer to [this documentation](https://docs.google.com/document/d/1O-mWoCaFsKmQY7QfEU1NhL3cyS8SfPCvKUoiIK5zcQQ/edit) for an in depth description of the IMS to TIF conversion pipeline.
 
 
 ### Registration, Merge and Crop
