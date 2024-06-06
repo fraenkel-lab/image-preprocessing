@@ -1,5 +1,9 @@
 # image-preprocessing
 
+### Conda Environment Setup
+
+In order to continue with this image processing pipeline, you need to have a suitable environment with the necessary packages. You can find yml.file to create the environment (additional information for creating the environment can be found: [here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html))
+
 ### Image Format Conversion
 
 The TIF image format is usually the preferred format for preprocessing. Therefore if the raw images are in a different format, one would need to convert it to TIF.
